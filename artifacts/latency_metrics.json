@@ -1,0 +1,2022 @@
+{
+  "summary": {
+    "n": 200,
+    "p50_ms": 31.31444999780797,
+    "p70_ms": 35.788070000853615,
+    "p100_ms": 58.548000000882894,
+    "mean_ms": 31.61962799995308,
+    "under_200ms_pct": 100.0,
+    "breakdown": {
+      "embed_ms_p50": 18.38175000011688,
+      "retrieve_ms_p50": 11.490349999803584,
+      "generate_ms_p50": 0.20435000078578014
+    },
+    "source": "bench_n=200"
+  },
+  "runs": [
+    {
+      "query": "\u092b\u094d\u0932\u0942\u092e \u0915\u093f\u0938 \u0926\u093f\u0936\u093e \u092e\u0947\u0902 \u092c\u0939\u0924\u093e \u0939\u0948",
+      "answered": false,
+      "total_ms": 18.25989999997546,
+      "wall_ms": 18.284200003108708,
+      "embed_ms": 11.062699999456527,
+      "retrieve_ms": 7.136400003219023,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "different types of social security disability",
+      "answered": true,
+      "total_ms": 19.887599999492522,
+      "wall_ms": 19.91219999763416,
+      "embed_ms": 11.118599999463186,
+      "retrieve_ms": 8.452899997791974,
+      "generate_ms": 0.13490000128513202,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0935\u093f\u092d\u093f\u0928\u094d\u0928 \u092a\u094d\u0930\u0915\u093e\u0930 \u0915\u0940 \u0938\u093e\u092e\u093e\u091c\u093f\u0915 \u0938\u0941\u0930\u0915\u094d\u0937\u093e \u0935\u093f\u0915\u0932\u093e\u0902\u0917\u0924\u093e",
+      "answered": true,
+      "total_ms": 20.687200001702877,
+      "wall_ms": 20.710000000690343,
+      "embed_ms": 12.117700000089826,
+      "retrieve_ms": 8.278400000563124,
+      "generate_ms": 0.1311999985773582,
+      "refuse_reason": null
+    },
+    {
+      "query": "what does the american flag sticker on cars mean",
+      "answered": false,
+      "total_ms": 22.23249999951804,
+      "wall_ms": 22.256000000197673,
+      "embed_ms": 11.561700001038844,
+      "retrieve_ms": 10.61169999957201,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "\u0915\u093e\u0930\u094b\u0902 \u092a\u0930 \u0905\u092e\u0947\u0930\u093f\u0915\u0940 \u0927\u094d\u0935\u091c \u0915\u0947 \u0938\u094d\u091f\u093f\u0915\u0930 \u0915\u093e \u0915\u094d\u092f\u093e \u0905\u0930\u094d\u0925 \u0939\u0948?",
+      "answered": true,
+      "total_ms": 22.986300002230564,
+      "wall_ms": 23.00900000045658,
+      "embed_ms": 11.276299999735784,
+      "retrieve_ms": 11.388700000679819,
+      "generate_ms": 0.14649999866378494,
+      "refuse_reason": null
+    },
+    {
+      "query": "what do graduate students wear to class",
+      "answered": true,
+      "total_ms": 21.033499997429317,
+      "wall_ms": 21.072499999718275,
+      "embed_ms": 11.204000002180692,
+      "retrieve_ms": 9.427500001038425,
+      "generate_ms": 0.18540000019129366,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0938\u094d\u0928\u093e\u0924\u0915 \u091b\u093e\u0924\u094d\u0930 \u0915\u0915\u094d\u0937\u093e \u092e\u0947\u0902 \u0915\u094d\u092f\u093e \u092a\u0939\u0928\u0924\u0947 \u0939\u0948\u0902",
+      "answered": true,
+      "total_ms": 19.74300000074436,
+      "wall_ms": 19.765700002608355,
+      "embed_ms": 10.94100000045728,
+      "retrieve_ms": 8.4102000000712,
+      "generate_ms": 0.16660000255797058,
+      "refuse_reason": null
+    },
+    {
+      "query": "elevators meaning",
+      "answered": true,
+      "total_ms": 15.476199998374796,
+      "wall_ms": 15.500000001338776,
+      "embed_ms": 11.312799997540424,
+      "retrieve_ms": 3.8485000004584435,
+      "generate_ms": 0.15309999798773788,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0932\u093f\u092b\u094d\u091f \u0915\u093e \u092e\u0924\u0932\u092c \u0939\u0948",
+      "answered": true,
+      "total_ms": 17.17629999984638,
+      "wall_ms": 17.201499998918734,
+      "embed_ms": 11.345599999913247,
+      "retrieve_ms": 5.505100001755636,
+      "generate_ms": 0.14109999756328762,
+      "refuse_reason": null
+    },
+    {
+      "query": "can u claim cpa fees paid to a state audit on the itemized deduction form",
+      "answered": true,
+      "total_ms": 28.36089999982505,
+      "wall_ms": 28.384599998389604,
+      "embed_ms": 12.093400000594556,
+      "retrieve_ms": 15.91030000054161,
+      "generate_ms": 0.14589999773306772,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0915\u094d\u092f\u093e \u0906\u092a \u0935\u093f\u0938\u094d\u0924\u0943\u0924 \u0915\u091f\u094c\u0924\u0940 \u092a\u094d\u0930\u092a\u0924\u094d\u0930 \u092a\u0930 \u0930\u093e\u091c\u094d\u092f \u0915\u0947 \u0932\u093f\u090f \u092d\u0941\u0917\u0924\u093e\u0928 \u0915\u093f\u090f \u0917\u090f \u0938\u0940.\u092a\u0940.\u090f. \u0936\u0941\u0932\u094d\u0915 \u0915\u093e \u0926\u093e\u0935\u093e \u0915\u0930 \u0938\u0915\u0924\u0947 \u0939\u0948\u0902?",
+      "answered": true,
+      "total_ms": 30.753399998502573,
+      "wall_ms": 30.774599999858765,
+      "embed_ms": 11.179000000993256,
+      "retrieve_ms": 19.22779999949853,
+      "generate_ms": 0.15300000086426735,
+      "refuse_reason": null
+    },
+    {
+      "query": "how to use sysdate in sql",
+      "answered": true,
+      "total_ms": 19.77220000117086,
+      "wall_ms": 19.794899999396876,
+      "embed_ms": 12.023799998132745,
+      "retrieve_ms": 7.406600001559127,
+      "generate_ms": 0.16220000179600902,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0938\u093f\u0938\u0921\u0947\u091f \u0915\u093e \u0909\u092a\u092f\u094b\u0917 \u0915\u0948\u0938\u0947 \u0915\u0930\u0947\u0902?",
+      "answered": true,
+      "total_ms": 17.96720000129426,
+      "wall_ms": 17.989300002227537,
+      "embed_ms": 10.955199999443721,
+      "retrieve_ms": 6.701000002067303,
+      "generate_ms": 0.13420000323094428,
+      "refuse_reason": null
+    },
+    {
+      "query": "coal miner's daughter cast",
+      "answered": true,
+      "total_ms": 17.002200002025347,
+      "wall_ms": 17.023800002789358,
+      "embed_ms": 11.408499998651678,
+      "retrieve_ms": 5.309700001816964,
+      "generate_ms": 0.12319999950705096,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0915\u094b\u092f\u0932\u093e \u0916\u0928\u093f\u0915 \u0915\u0940 \u092c\u0947\u091f\u0940 \u0915\u093e\u0938\u094d\u091f",
+      "answered": false,
+      "total_ms": 22.950399998080684,
+      "wall_ms": 22.97280000129831,
+      "embed_ms": 16.767900000559166,
+      "retrieve_ms": 6.117400000221096,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "does bj's accept food stamps",
+      "answered": true,
+      "total_ms": 19.642100000055507,
+      "wall_ms": 19.66609999726643,
+      "embed_ms": 11.94250000116881,
+      "retrieve_ms": 7.3427999996056315,
+      "generate_ms": 0.170899998920504,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0915\u094d\u092f\u093e \u092c\u0940.\u091c\u0947. \u0915\u0947 \u0916\u093e\u0926\u094d\u092f \u091f\u093f\u0915\u091f \u0938\u094d\u0935\u0940\u0915\u093e\u0930 \u0915\u0930\u0924\u093e \u0939\u0948",
+      "answered": false,
+      "total_ms": 24.923900000430876,
+      "wall_ms": 24.948600002971943,
+      "embed_ms": 14.90130000092904,
+      "retrieve_ms": 9.957500002201414,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "crevice define",
+      "answered": true,
+      "total_ms": 17.79510000051232,
+      "wall_ms": 17.818300002545584,
+      "embed_ms": 13.642199999594595,
+      "retrieve_ms": 3.842300000542309,
+      "generate_ms": 0.1419000000169035,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0915\u094d\u0930\u0947\u0935\u093f\u0938 \u0915\u094b \u092a\u0930\u093f\u092d\u093e\u0937\u093f\u0924 \u0915\u0930\u0947\u0902",
+      "answered": false,
+      "total_ms": 18.224699997517746,
+      "wall_ms": 18.251900000905152,
+      "embed_ms": 12.079200001608115,
+      "retrieve_ms": 6.0847000022477005,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "how much is it to hire a security officer in durham ontario",
+      "answered": true,
+      "total_ms": 24.991300000692718,
+      "wall_ms": 25.014399998326553,
+      "embed_ms": 11.928399999305839,
+      "retrieve_ms": 12.591500002599787,
+      "generate_ms": 0.2328000009583775,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0921\u0930\u0939\u092e, \u0913\u0902\u091f\u093e\u0930\u093f\u092f\u094b \u092e\u0947\u0902 \u090f\u0915 \u0938\u0941\u0930\u0915\u094d\u0937\u093e \u0905\u0927\u093f\u0915\u093e\u0930\u0940 \u0915\u094b \u0915\u093f\u0930\u093e\u090f \u092a\u0930 \u0932\u0947\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u0915\u093f\u0924\u0928\u093e \u0939\u094b\u0917\u093e?",
+      "answered": true,
+      "total_ms": 25.991499998781364,
+      "wall_ms": 26.01420000064536,
+      "embed_ms": 11.193899998033885,
+      "retrieve_ms": 14.32569999815314,
+      "generate_ms": 0.23809999765944667,
+      "refuse_reason": null
+    },
+    {
+      "query": "what does laches mean in legal terms",
+      "answered": true,
+      "total_ms": 20.12530000138213,
+      "wall_ms": 20.14950000011595,
+      "embed_ms": 11.278300000412855,
+      "retrieve_ms": 8.481300003040815,
+      "generate_ms": 0.16939999841270037,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0915\u093e\u0928\u0942\u0928\u0940 \u0936\u092c\u094d\u0926\u093e\u0935\u0932\u0940 \u092e\u0947\u0902 '\u0932\u093e\u091a' \u0915\u093e \u0915\u094d\u092f\u093e \u0905\u0930\u094d\u0925 \u0939\u0948",
+      "answered": true,
+      "total_ms": 20.832900001551025,
+      "wall_ms": 20.854999998846324,
+      "embed_ms": 11.087499999121064,
+      "retrieve_ms": 9.403100000781706,
+      "generate_ms": 0.15129999883356504,
+      "refuse_reason": null
+    },
+    {
+      "query": "what county is yucaipa california in",
+      "answered": true,
+      "total_ms": 18.40760000050068,
+      "wall_ms": 18.430500000249594,
+      "embed_ms": 11.358899999322603,
+      "retrieve_ms": 6.703699997160584,
+      "generate_ms": 0.14549999832524918,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0915\u094c\u0928 \u0938\u0940 \u0915\u093e\u0909\u0902\u091f\u0940 \u092e\u0947\u0902 \u092f\u0941\u0915\u0948\u092a\u093e \u0915\u0948\u0932\u093f\u092b\u094b\u0930\u094d\u0928\u093f\u092f\u093e \u0939\u0948",
+      "answered": false,
+      "total_ms": 20.14969999800087,
+      "wall_ms": 20.17359999808832,
+      "embed_ms": 10.935299997072434,
+      "retrieve_ms": 9.148900000582216,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "what documents are needed for texas drivers license renewal?",
+      "answered": true,
+      "total_ms": 24.64740000141319,
+      "wall_ms": 24.670400001923554,
+      "embed_ms": 11.754300001484808,
+      "retrieve_ms": 12.490199998865137,
+      "generate_ms": 0.18769999951473437,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u091f\u0947\u0915\u094d\u0938\u0938 \u0921\u094d\u0930\u093e\u0907\u0935\u093f\u0902\u0917 \u0932\u093e\u0907\u0938\u0947\u0902\u0938 \u0928\u0935\u0940\u0928\u0940\u0915\u0930\u0923 \u0915\u0947 \u0932\u093f\u090f \u0915\u093f\u0928 \u0926\u0938\u094d\u0924\u093e\u0935\u0947\u091c\u094b\u0902 \u0915\u0940 \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e \u0939\u094b\u0924\u0940 \u0939\u0948?",
+      "answered": true,
+      "total_ms": 28.08339999683085,
+      "wall_ms": 28.10929999759537,
+      "embed_ms": 13.77420000062557,
+      "retrieve_ms": 13.999800001329277,
+      "generate_ms": 0.1216000018757768,
+      "refuse_reason": null
+    },
+    {
+      "query": "hoover al height above sea level",
+      "answered": true,
+      "total_ms": 22.199600000021746,
+      "wall_ms": 22.25700000053621,
+      "embed_ms": 13.975199999549659,
+      "retrieve_ms": 7.853399998566601,
+      "generate_ms": 0.16630000027362257,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0938\u092e\u0941\u0926\u094d\u0930 \u0924\u0932 \u0938\u0947 \u090a\u0902\u091a\u093e\u0908 \u092a\u0930",
+      "answered": true,
+      "total_ms": 20.440299998881528,
+      "wall_ms": 20.46400000108406,
+      "embed_ms": 12.348000000201864,
+      "retrieve_ms": 7.698199999140343,
+      "generate_ms": 0.16680000044289045,
+      "refuse_reason": null
+    },
+    {
+      "query": "what is dvr service",
+      "answered": true,
+      "total_ms": 19.809500001429114,
+      "wall_ms": 19.83299999847077,
+      "embed_ms": 13.269499999296386,
+      "retrieve_ms": 6.224200002179714,
+      "generate_ms": 0.1520000005257316,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0915\u094d\u092f\u093e \u0921\u0940.\u0935\u0940.\u0906\u0930. \u0938\u0947\u0935\u093e \u0939\u0948",
+      "answered": true,
+      "total_ms": 16.492800001287833,
+      "wall_ms": 16.514500002813293,
+      "embed_ms": 10.792900000524241,
+      "retrieve_ms": 5.423400001745904,
+      "generate_ms": 0.12209999840706587,
+      "refuse_reason": null
+    },
+    {
+      "query": "is a bachelors a graduate program?",
+      "answered": false,
+      "total_ms": 18.655400002899114,
+      "wall_ms": 18.679400000110036,
+      "embed_ms": 11.361599998053862,
+      "retrieve_ms": 7.2399999990011565,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "\u0915\u094d\u092f\u093e \u0938\u094d\u0928\u093e\u0924\u0915 \u0915\u093e\u0930\u094d\u092f\u0915\u094d\u0930\u092e \u092e\u0947\u0902 \u0938\u094d\u0928\u093e\u0924\u0915 \u0939\u094b\u0924\u093e \u0939\u0948?",
+      "answered": true,
+      "total_ms": 20.165099998848746,
+      "wall_ms": 20.18559999851277,
+      "embed_ms": 11.222199998883298,
+      "retrieve_ms": 8.628700001281686,
+      "generate_ms": 0.12029999925289303,
+      "refuse_reason": null
+    },
+    {
+      "query": "what causes middle back pain",
+      "answered": true,
+      "total_ms": 17.585500001587206,
+      "wall_ms": 17.60899999862886,
+      "embed_ms": 10.956199999782257,
+      "retrieve_ms": 6.3278999987232964,
+      "generate_ms": 0.136500002554385,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0915\u0936 \u0915\u093e\u0930\u0923 \u0938\u0947 \u092e\u0927\u094d\u092f \u092a\u0940\u0920 \u0926\u0930\u094d\u0926 \u0939\u094b\u0924\u093e \u0939\u0948",
+      "answered": true,
+      "total_ms": 31.533899997157278,
+      "wall_ms": 31.582600000547245,
+      "embed_ms": 15.863299999182345,
+      "retrieve_ms": 15.332899998611538,
+      "generate_ms": 0.15069999790284783,
+      "refuse_reason": null
+    },
+    {
+      "query": "what county is albertville in",
+      "answered": false,
+      "total_ms": 30.78319999985979,
+      "wall_ms": 30.82409999842639,
+      "embed_ms": 17.122199998993892,
+      "retrieve_ms": 13.57809999899473,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "\u0915\u094c\u0928 \u0938\u0940 \u0915\u093e\u0909\u0902\u091f\u0940 \u0905\u0932\u094d\u092c\u0930\u094d\u091f\u0935\u093f\u0932\u0947 \u092e\u0947\u0902 \u0939\u0948",
+      "answered": true,
+      "total_ms": 30.29179999793996,
+      "wall_ms": 30.318900000565918,
+      "embed_ms": 18.738499999017222,
+      "retrieve_ms": 11.141999999381369,
+      "generate_ms": 0.17529999968246557,
+      "refuse_reason": null
+    },
+    {
+      "query": "does supplemental plan n cover the deductible",
+      "answered": true,
+      "total_ms": 43.641600001137704,
+      "wall_ms": 43.692100000043865,
+      "embed_ms": 24.222600000939565,
+      "retrieve_ms": 18.786499997077044,
+      "generate_ms": 0.29599999834317714,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0915\u094d\u092f\u093e \u092a\u0942\u0930\u0915 \u092f\u094b\u091c\u0928\u093e \u0915\u091f\u094c\u0924\u0940 \u092f\u094b\u0917\u094d\u092f \u0930\u093e\u0936\u093f \u0915\u094b \u0915\u0935\u0930 \u0915\u0930\u0924\u0940 \u0939\u0948?",
+      "answered": true,
+      "total_ms": 42.87999999723979,
+      "wall_ms": 42.92609999902197,
+      "embed_ms": 22.074499996961094,
+      "retrieve_ms": 20.012999997561565,
+      "generate_ms": 0.33510000139358453,
+      "refuse_reason": null
+    },
+    {
+      "query": "do you have to get veneers for invisalign",
+      "answered": true,
+      "total_ms": 50.149400001828326,
+      "wall_ms": 50.20860000149696,
+      "embed_ms": 25.06350000112434,
+      "retrieve_ms": 23.80039999843575,
+      "generate_ms": 0.6465000005846377,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0915\u094d\u092f\u093e \u0906\u092a\u0915\u094b \u0905\u0926\u0943\u0936\u094d\u092f\u0932\u093e\u0907\u0928 \u0915\u0947 \u0932\u093f\u090f \u0935\u0940\u0928\u093f\u092f\u0930 \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0915\u0930\u0928\u093e \u0939\u0948?",
+      "answered": false,
+      "total_ms": 46.76869999821065,
+      "wall_ms": 46.813699998892844,
+      "embed_ms": 22.454199999629054,
+      "retrieve_ms": 24.135999999998603,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "what causes enlarged liver",
+      "answered": true,
+      "total_ms": 28.915999999298947,
+      "wall_ms": 28.955099998711376,
+      "embed_ms": 18.74120000138646,
+      "retrieve_ms": 9.40219999756664,
+      "generate_ms": 0.35199999911128543,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u091c\u093f\u0938 \u0935\u091c\u0939 \u0938\u0947 \u092f\u0915\u0943\u0924 \u092c\u0922\u093c \u091c\u093e\u0924\u093e \u0939\u0948",
+      "answered": true,
+      "total_ms": 37.20729999986361,
+      "wall_ms": 37.24549999969895,
+      "embed_ms": 18.54529999764054,
+      "retrieve_ms": 17.90930000061053,
+      "generate_ms": 0.3460000007180497,
+      "refuse_reason": null
+    },
+    {
+      "query": "typical amperage for household appliances",
+      "answered": true,
+      "total_ms": 35.38720000142348,
+      "wall_ms": 35.429400002612965,
+      "embed_ms": 23.286400002689334,
+      "retrieve_ms": 11.357600000337698,
+      "generate_ms": 0.32640000063111074,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0918\u0930\u0947\u0932\u0942 \u0909\u092a\u0915\u0930\u0923\u094b\u0902 \u0915\u0947 \u0932\u093f\u090f \u0935\u093f\u0936\u093f\u0937\u094d\u091f \u0916\u0930\u094d\u091a",
+      "answered": true,
+      "total_ms": 35.16419999868958,
+      "wall_ms": 35.189999998692656,
+      "embed_ms": 20.79260000027716,
+      "retrieve_ms": 13.813699999445817,
+      "generate_ms": 0.25610000011511147,
+      "refuse_reason": null
+    },
+    {
+      "query": "what is beer million",
+      "answered": true,
+      "total_ms": 23.728500000288477,
+      "wall_ms": 23.769700001139427,
+      "embed_ms": 12.507899999036454,
+      "retrieve_ms": 10.64799999949173,
+      "generate_ms": 0.2668000015546568,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u092c\u0940\u092f\u0930 \u092e\u093f\u0932\u093f\u092f\u0928 \u0915\u094d\u092f\u093e \u0939\u0948?",
+      "answered": false,
+      "total_ms": 25.64379999967059,
+      "wall_ms": 25.671700001112185,
+      "embed_ms": 17.872199998237193,
+      "retrieve_ms": 7.683400002861163,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "important names in the civil rights movement",
+      "answered": true,
+      "total_ms": 23.75709999978426,
+      "wall_ms": 23.78329999919515,
+      "embed_ms": 14.387700000952464,
+      "retrieve_ms": 8.978199999546632,
+      "generate_ms": 0.16600000162725337,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0928\u093e\u0917\u0930\u093f\u0915 \u0905\u0927\u093f\u0915\u093e\u0930 \u0906\u0902\u0926\u094b\u0932\u0928 \u092e\u0947\u0902 \u092e\u0939\u0924\u094d\u0935\u092a\u0942\u0930\u094d\u0923 \u0928\u093e\u092e",
+      "answered": true,
+      "total_ms": 21.042600001237588,
+      "wall_ms": 21.067099998617778,
+      "embed_ms": 12.371800003165845,
+      "retrieve_ms": 8.268300000054296,
+      "generate_ms": 0.19120000069960952,
+      "refuse_reason": null
+    },
+    {
+      "query": "what is a tonto japanese",
+      "answered": false,
+      "total_ms": 21.524100000533508,
+      "wall_ms": 21.55059999859077,
+      "embed_ms": 13.782199999695877,
+      "retrieve_ms": 7.675099997868529,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "\u091f\u094b\u0902\u091f\u094b \u091c\u093e\u092a\u093e\u0928\u0940 \u0915\u094d\u092f\u093e \u0939\u0948?",
+      "answered": false,
+      "total_ms": 22.241300001041964,
+      "wall_ms": 22.27189999757684,
+      "embed_ms": 15.202099999441998,
+      "retrieve_ms": 6.938399998034583,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "boren scholarship essay examples",
+      "answered": true,
+      "total_ms": 28.59129999706056,
+      "wall_ms": 28.638200001296354,
+      "embed_ms": 19.71679999769549,
+      "retrieve_ms": 8.154500003001885,
+      "generate_ms": 0.314799999614479,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u092c\u094b\u0930\u0947\u0928 \u091b\u093e\u0924\u094d\u0930\u0935\u0943\u0924\u094d\u0924\u093f \u0928\u093f\u092c\u0902\u0927 \u0909\u0926\u093e\u0939\u0930\u0923",
+      "answered": false,
+      "total_ms": 31.746799999382347,
+      "wall_ms": 31.80620000057388,
+      "embed_ms": 19.929800000682008,
+      "retrieve_ms": 11.672699998598546,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "what does very insightful mean",
+      "answered": true,
+      "total_ms": 37.81119999985094,
+      "wall_ms": 37.85559999960242,
+      "embed_ms": 27.582700000493787,
+      "retrieve_ms": 9.632299999793759,
+      "generate_ms": 0.16260000120382756,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u092c\u0939\u0941\u0924 \u0939\u0940 \u0905\u0902\u0924\u0930\u094d\u0926\u0943\u0937\u094d\u091f\u093f\u092a\u0942\u0930\u094d\u0923 \u0915\u093e \u0915\u094d\u092f\u093e \u0905\u0930\u094d\u0925 \u0939\u0948",
+      "answered": true,
+      "total_ms": 45.6317999996827,
+      "wall_ms": 45.66730000078678,
+      "embed_ms": 21.15620000040508,
+      "retrieve_ms": 23.732000001473352,
+      "generate_ms": 0.3276999996160157,
+      "refuse_reason": null
+    },
+    {
+      "query": "what does HEP equiped mean?",
+      "answered": true,
+      "total_ms": 26.6723999993701,
+      "wall_ms": 26.723999999376247,
+      "embed_ms": 16.2345999997342,
+      "retrieve_ms": 9.587799999280833,
+      "generate_ms": 0.343700001394609,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u090f\u091a.\u0908.\u092a\u0940. \u0938\u0941\u0938\u091c\u094d\u091c\u093f\u0924 \u0915\u094d\u092f\u093e \u0939\u0948?",
+      "answered": true,
+      "total_ms": 25.20889999868814,
+      "wall_ms": 25.240599999960978,
+      "embed_ms": 15.412799999467097,
+      "retrieve_ms": 9.057299997948576,
+      "generate_ms": 0.31319999834522605,
+      "refuse_reason": null
+    },
+    {
+      "query": "what causes misfiring to switch cylinders in an engine?",
+      "answered": false,
+      "total_ms": 35.710100000869716,
+      "wall_ms": 35.74989999833633,
+      "embed_ms": 18.205799999122974,
+      "retrieve_ms": 17.42240000021411,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "\u0907\u0902\u091c\u0928 \u092e\u0947\u0902 \u0938\u093f\u0932\u093f\u0902\u0921\u0930 \u0915\u094b \u0917\u0932\u0924 \u0924\u0930\u0940\u0915\u0947 \u0938\u0947 \u092c\u0926\u0932\u0928\u0947 \u0915\u093e \u0915\u093e\u0930\u0923 \u0915\u094d\u092f\u093e \u0939\u094b\u0924\u093e \u0939\u0948?",
+      "answered": true,
+      "total_ms": 43.517899997823406,
+      "wall_ms": 43.57419999723788,
+      "embed_ms": 21.23850000134553,
+      "retrieve_ms": 21.071800001664087,
+      "generate_ms": 0.6323000015981961,
+      "refuse_reason": null
+    },
+    {
+      "query": "typical weather for bergen norway in august",
+      "answered": true,
+      "total_ms": 36.80679999888525,
+      "wall_ms": 36.850099997536745,
+      "embed_ms": 14.75610000125016,
+      "retrieve_ms": 21.47980000154348,
+      "generate_ms": 0.24610000036773272,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0905\u0917\u0938\u094d\u0924 \u092e\u0947\u0902 \u0928\u0949\u0930\u094d\u0935\u0947 \u0915\u0947 \u0932\u093f\u090f \u0935\u093f\u0936\u093f\u0937\u094d\u091f \u092e\u094c\u0938\u092e",
+      "answered": true,
+      "total_ms": 33.95459999956074,
+      "wall_ms": 33.98379999998724,
+      "embed_ms": 23.754099998768652,
+      "retrieve_ms": 9.839700000156881,
+      "generate_ms": 0.16089999917312525,
+      "refuse_reason": null
+    },
+    {
+      "query": "what is a fugue",
+      "answered": true,
+      "total_ms": 27.527300000656396,
+      "wall_ms": 27.584199997363612,
+      "embed_ms": 14.586600002076011,
+      "retrieve_ms": 12.117499998566927,
+      "generate_ms": 0.352700000803452,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0915\u094d\u092f\u093e \u0939\u0948 \u092d\u0917\u0926\u0921\u093c",
+      "answered": false,
+      "total_ms": 28.85679999963031,
+      "wall_ms": 28.918899999553105,
+      "embed_ms": 19.692699999723118,
+      "retrieve_ms": 8.979400001408067,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "what is crackling bread",
+      "answered": true,
+      "total_ms": 34.817899999325164,
+      "wall_ms": 34.85910000017611,
+      "embed_ms": 21.8088000001444,
+      "retrieve_ms": 12.289800000871764,
+      "generate_ms": 0.31680000029155053,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0915\u094d\u0930\u0948\u0915\u0932\u093f\u0902\u0917 \u092c\u094d\u0930\u0947\u0921 \u0915\u094d\u092f\u093e \u0939\u0948",
+      "answered": true,
+      "total_ms": 33.74410000105854,
+      "wall_ms": 33.784100000048056,
+      "embed_ms": 23.956799999723444,
+      "retrieve_ms": 9.127100001933286,
+      "generate_ms": 0.29119999817339703,
+      "refuse_reason": null
+    },
+    {
+      "query": "how many litres of air does a person exhale per breath",
+      "answered": true,
+      "total_ms": 46.871200000168756,
+      "wall_ms": 46.91310000271187,
+      "embed_ms": 19.6338999994623,
+      "retrieve_ms": 26.624899997841567,
+      "generate_ms": 0.3065999990212731,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u092a\u094d\u0930\u0924\u093f \u0938\u093e\u0902\u0938 \u090f\u0915 \u0935\u094d\u092f\u0915\u094d\u0924\u093f \u0915\u093f\u0924\u0928\u0947 \u0932\u0940\u091f\u0930 \u0939\u0935\u093e \u091b\u094b\u0921\u093c\u0924\u093e \u0939\u0948",
+      "answered": true,
+      "total_ms": 40.89959999691928,
+      "wall_ms": 40.95890000098734,
+      "embed_ms": 19.934799998736707,
+      "retrieve_ms": 20.019699997646967,
+      "generate_ms": 0.48039999819593504,
+      "refuse_reason": null
+    },
+    {
+      "query": "duck hd clear tape is it safe to use sealing food for freezer",
+      "answered": true,
+      "total_ms": 45.627699997567106,
+      "wall_ms": 45.652000000700355,
+      "embed_ms": 20.46120000159135,
+      "retrieve_ms": 24.76120000210358,
+      "generate_ms": 0.13250000120024197,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0915\u094d\u092f\u093e \u092c\u0924\u093e\u0928\u093e \u0939\u0948 - \u092b\u094d\u0930\u0940\u091c\u0930 \u0915\u0947 \u0932\u093f\u090f \u0938\u0940\u0932\u092c\u0902\u0926 \u0916\u093e\u0926\u094d\u092f \u0938\u093e\u092e\u0917\u094d\u0930\u0940 \u0915\u093e \u0909\u092a\u092f\u094b\u0917 \u0915\u0930\u0928\u093e \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0939\u0948?",
+      "answered": true,
+      "total_ms": 49.32180000105291,
+      "wall_ms": 49.370900000212714,
+      "embed_ms": 23.048799997923197,
+      "retrieve_ms": 25.69739999671583,
+      "generate_ms": 0.17120000120485201,
+      "refuse_reason": null
+    },
+    {
+      "query": "research methodology definition",
+      "answered": true,
+      "total_ms": 25.614599999244092,
+      "wall_ms": 25.645699999586213,
+      "embed_ms": 20.26109999860637,
+      "retrieve_ms": 4.9156000022776425,
+      "generate_ms": 0.14449999798671342,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0936\u094b\u0927 \u092a\u0926\u094d\u0927\u0924\u093f \u0915\u0940 \u092a\u0930\u093f\u092d\u093e\u0937\u093e",
+      "answered": false,
+      "total_ms": 21.17279999947641,
+      "wall_ms": 21.2113000015961,
+      "embed_ms": 12.408599999616854,
+      "retrieve_ms": 8.666999998240499,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "meaning of bani in arabic",
+      "answered": true,
+      "total_ms": 27.021699999750126,
+      "wall_ms": 27.079300001787487,
+      "embed_ms": 16.107399998873007,
+      "retrieve_ms": 10.006299999076873,
+      "generate_ms": 0.40240000089397654,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0905\u0930\u092c\u0940 \u092e\u0947\u0902 \u092c\u093e\u0928\u0940 \u0915\u093e \u0905\u0930\u094d\u0925 \u0939\u0948",
+      "answered": true,
+      "total_ms": 38.954700001340825,
+      "wall_ms": 38.986100000329316,
+      "embed_ms": 25.44290000150795,
+      "retrieve_ms": 12.97820000036154,
+      "generate_ms": 0.2376000011281576,
+      "refuse_reason": null
+    },
+    {
+      "query": "what is a pediatric doctor",
+      "answered": true,
+      "total_ms": 31.67380000013509,
+      "wall_ms": 31.71710000242456,
+      "embed_ms": 22.879899999679765,
+      "retrieve_ms": 8.157800002663862,
+      "generate_ms": 0.28810000003431924,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u092c\u093e\u0932 \u0930\u094b\u0917 \u0935\u093f\u0936\u0947\u0937\u091c\u094d\u091e \u0915\u094d\u092f\u093e \u0939\u094b\u0924\u093e \u0939\u0948",
+      "answered": true,
+      "total_ms": 25.05620000010822,
+      "wall_ms": 25.080999999772757,
+      "embed_ms": 17.547999999806052,
+      "retrieve_ms": 7.135300002119038,
+      "generate_ms": 0.1632999992580153,
+      "refuse_reason": null
+    },
+    {
+      "query": "new retail definition",
+      "answered": true,
+      "total_ms": 31.534699999610893,
+      "wall_ms": 31.58350000012433,
+      "embed_ms": 21.26940000016475,
+      "retrieve_ms": 9.571200000209501,
+      "generate_ms": 0.3271000023232773,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0928\u0908 \u0916\u0941\u0926\u0930\u093e \u092a\u0930\u093f\u092d\u093e\u0937\u093e",
+      "answered": true,
+      "total_ms": 28.97089999896707,
+      "wall_ms": 29.010400001425296,
+      "embed_ms": 21.579299998848,
+      "retrieve_ms": 6.8293000003905036,
+      "generate_ms": 0.260199998592725,
+      "refuse_reason": null
+    },
+    {
+      "query": "weather forecast islamabad in celsius",
+      "answered": true,
+      "total_ms": 30.28450000056182,
+      "wall_ms": 30.350699998962227,
+      "embed_ms": 18.676899999263696,
+      "retrieve_ms": 11.083399997005472,
+      "generate_ms": 0.2173000029870309,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0907\u0938\u094d\u0932\u093e\u092e\u093e\u092c\u093e\u0926 \u092e\u0947\u0902 \u0938\u0947\u0932\u094d\u0938\u093f\u092f\u0938 \u0924\u093e\u092a\u092e\u093e\u0928 \u0915\u093e \u092a\u0942\u0930\u094d\u0935\u093e\u0928\u0941\u092e\u093e\u0928",
+      "answered": true,
+      "total_ms": 32.97939999902155,
+      "wall_ms": 33.0156000018178,
+      "embed_ms": 19.12599999923259,
+      "retrieve_ms": 13.033699997322401,
+      "generate_ms": 0.411300003179349,
+      "refuse_reason": null
+    },
+    {
+      "query": "can unopened lantus insulin be stored at room temperature?",
+      "answered": true,
+      "total_ms": 41.7172000015853,
+      "wall_ms": 41.7751999993925,
+      "embed_ms": 20.68399999916437,
+      "retrieve_ms": 20.13029999943683,
+      "generate_ms": 0.4548999968392309,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0915\u094d\u092f\u093e \u0915\u092e\u0930\u0947 \u0915\u0947 \u0924\u093e\u092a\u092e\u093e\u0928 \u092a\u0930 \u092c\u0902\u0926 \u0915\u093f\u090f \u092c\u093f\u0928\u093e \u0905\u0902\u0924\u0903\u0938\u094d\u0930\u093e\u0935\u0940 \u0907\u0902\u0938\u0941\u0932\u093f\u0928 \u0915\u094b \u0938\u0902\u0917\u094d\u0930\u0939\u0940\u0924 \u0915\u093f\u092f\u093e \u091c\u093e \u0938\u0915\u0924\u093e \u0939\u0948?",
+      "answered": true,
+      "total_ms": 58.548000000882894,
+      "wall_ms": 58.58779999834951,
+      "embed_ms": 23.172900000645313,
+      "retrieve_ms": 34.58719999980531,
+      "generate_ms": 0.34640000012586825,
+      "refuse_reason": null
+    },
+    {
+      "query": "cost of sirius xm",
+      "answered": false,
+      "total_ms": 35.33420000167098,
+      "wall_ms": 35.3581999988819,
+      "embed_ms": 25.630700001784135,
+      "retrieve_ms": 9.62959999742452,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "\u0938\u093f\u0930\u093f\u092f\u0938 \u090f\u0915\u094d\u0938.\u090f\u092e.\u0935\u0940.",
+      "answered": false,
+      "total_ms": 22.7865999986534,
+      "wall_ms": 22.83770000212826,
+      "embed_ms": 15.341199999966193,
+      "retrieve_ms": 7.343299999774899,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "keystone best mean scale score report",
+      "answered": true,
+      "total_ms": 43.397299999924144,
+      "wall_ms": 43.44380000111414,
+      "embed_ms": 28.123399999458343,
+      "retrieve_ms": 14.498100001219427,
+      "generate_ms": 0.29830000130459666,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0915\u0940\u0938\u094d\u091f\u094b\u0928 \u092c\u0947\u0938\u094d\u091f \u092e\u0940\u0928 \u0938\u094d\u0915\u0947\u0932 \u0938\u094d\u0915\u094b\u0930 \u0930\u093f\u092a\u094b\u0930\u094d\u091f",
+      "answered": false,
+      "total_ms": 37.79399999984889,
+      "wall_ms": 37.83610000027693,
+      "embed_ms": 23.276600000826875,
+      "retrieve_ms": 14.393099998414982,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "what does the nAME Evelyn mean",
+      "answered": true,
+      "total_ms": 29.085599999234546,
+      "wall_ms": 29.110199997376185,
+      "embed_ms": 16.403500001615612,
+      "retrieve_ms": 12.083699999493547,
+      "generate_ms": 0.3212000010535121,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0928\u0947\u092e \u090f\u0935\u0932\u093f\u0928 \u0915\u093e \u0915\u094d\u092f\u093e \u0905\u0930\u094d\u0925 \u0939\u0948",
+      "answered": true,
+      "total_ms": 32.36850000030245,
+      "wall_ms": 32.39919999759877,
+      "embed_ms": 22.37809999860474,
+      "retrieve_ms": 9.524699999019504,
+      "generate_ms": 0.21299999934853986,
+      "refuse_reason": null
+    },
+    {
+      "query": "what is cvs software",
+      "answered": false,
+      "total_ms": 30.828099999780534,
+      "wall_ms": 30.871499999193475,
+      "embed_ms": 20.69189999747323,
+      "retrieve_ms": 10.045800001535099,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "\u0915\u094d\u092f\u0942.\u0935\u0940.\u090f\u0932.\u0938\u0940. \u0938\u0949\u092b\u094d\u091f\u0935\u0947\u092f\u0930 \u0915\u094d\u092f\u093e \u0939\u0948",
+      "answered": false,
+      "total_ms": 30.90149999843561,
+      "wall_ms": 30.944699999963632,
+      "embed_ms": 21.23369999753777,
+      "retrieve_ms": 9.548000001814216,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "how to make pre workout",
+      "answered": true,
+      "total_ms": 25.766899998416193,
+      "wall_ms": 25.791299998672912,
+      "embed_ms": 17.8462000003492,
+      "retrieve_ms": 7.576799998787465,
+      "generate_ms": 0.12630000128410757,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u092a\u0942\u0930\u094d\u0935 \u0915\u0938\u0930\u0924 \u0915\u0948\u0938\u0947 \u0915\u0930\u0947\u0902",
+      "answered": false,
+      "total_ms": 23.50010000009206,
+      "wall_ms": 23.545299998659175,
+      "embed_ms": 13.472400001774076,
+      "retrieve_ms": 9.940700001607183,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "lycoming engine cost",
+      "answered": true,
+      "total_ms": 23.87799999996787,
+      "wall_ms": 23.904099998617312,
+      "embed_ms": 18.28630000090925,
+      "retrieve_ms": 5.239699999947334,
+      "generate_ms": 0.15039999925647862,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0932\u093e\u0907\u0915\u092e\u093f\u0902\u0917 \u0907\u0902\u091c\u0928 \u0915\u0940 \u0915\u0940\u092e\u0924",
+      "answered": true,
+      "total_ms": 20.10570000129519,
+      "wall_ms": 20.131499997660285,
+      "embed_ms": 13.12060000054771,
+      "retrieve_ms": 6.444700000429293,
+      "generate_ms": 0.2569999996921979,
+      "refuse_reason": null
+    },
+    {
+      "query": "how long to cook french fries made from real potatoes?",
+      "answered": true,
+      "total_ms": 41.85009999855538,
+      "wall_ms": 41.87190000084229,
+      "embed_ms": 17.725699999573408,
+      "retrieve_ms": 23.716799998510396,
+      "generate_ms": 0.20539999968605116,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0905\u0938\u0932\u0940 \u0906\u0932\u0942 \u0938\u0947 \u092c\u0928\u0947 \u092b\u094d\u0930\u0947\u0902\u091a \u092b\u094d\u0930\u093e\u0907\u091c\u093c \u0915\u094b \u092a\u0915\u093e\u0928\u0947 \u092e\u0947\u0902 \u0915\u093f\u0924\u0928\u093e \u0938\u092e\u092f \u0932\u0917\u0924\u093e \u0939\u0948?",
+      "answered": true,
+      "total_ms": 43.48250000111875,
+      "wall_ms": 43.52310000103898,
+      "embed_ms": 12.573799998790491,
+      "retrieve_ms": 30.15840000080061,
+      "generate_ms": 0.38779999886173755,
+      "refuse_reason": null
+    },
+    {
+      "query": "how to get more energy in diggy's adventure",
+      "answered": true,
+      "total_ms": 38.96730000269599,
+      "wall_ms": 39.01589999804855,
+      "embed_ms": 18.866299997171154,
+      "retrieve_ms": 19.176099998730933,
+      "generate_ms": 0.4211000014038291,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0916\u0941\u0926\u093e\u0908 \u0915\u0947 \u090f\u0921\u0935\u0947\u0902\u091a\u0930 \u092e\u0947\u0902 \u0914\u0930 \u091c\u093c\u094d\u092f\u093e\u0926\u093e \u090a\u0930\u094d\u091c\u093e \u0915\u0948\u0938\u0947 \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0915\u0930\u0947\u0902",
+      "answered": true,
+      "total_ms": 41.76240000015241,
+      "wall_ms": 41.8007000007492,
+      "embed_ms": 21.817100001499057,
+      "retrieve_ms": 19.11180000024615,
+      "generate_ms": 0.44320000233710743,
+      "refuse_reason": null
+    },
+    {
+      "query": "is roger maris in the baseball hall of fame",
+      "answered": true,
+      "total_ms": 38.277499999821885,
+      "wall_ms": 38.3261000024504,
+      "embed_ms": 19.855600003211293,
+      "retrieve_ms": 17.771400001947768,
+      "generate_ms": 0.27259999842499383,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u092c\u0947\u0938\u092c\u0949\u0932 \u0939\u0949\u0932 \u0911\u092b \u092b\u0947\u092e \u092e\u0947\u0902 \u0930\u094b\u091c\u0930 \u092e\u0948\u0930\u093f\u0938 \u0939\u0948",
+      "answered": true,
+      "total_ms": 35.65840000010212,
+      "wall_ms": 35.68019999875105,
+      "embed_ms": 15.94939999995404,
+      "retrieve_ms": 19.386300002224743,
+      "generate_ms": 0.12680000145337544,
+      "refuse_reason": null
+    },
+    {
+      "query": "visual studio how to change a solution file name",
+      "answered": true,
+      "total_ms": 44.03120000279159,
+      "wall_ms": 44.072200002119644,
+      "embed_ms": 20.606099998985883,
+      "retrieve_ms": 22.790499999246094,
+      "generate_ms": 0.3218000019842293,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0935\u093f\u091c\u0941\u0905\u0932 \u0938\u094d\u091f\u0942\u0921\u093f\u092f\u094b \u092e\u0947\u0902 \u0938\u092e\u093e\u0927\u093e\u0928 \u092b\u093c\u093e\u0907\u0932 \u0915\u093e \u0928\u093e\u092e \u0915\u0948\u0938\u0947 \u092c\u0926\u0932\u0947\u0902",
+      "answered": true,
+      "total_ms": 49.15899999832618,
+      "wall_ms": 49.18539999925997,
+      "embed_ms": 21.878200001083314,
+      "retrieve_ms": 26.866800002608215,
+      "generate_ms": 0.16900000264286064,
+      "refuse_reason": null
+    },
+    {
+      "query": "inspected definition",
+      "answered": true,
+      "total_ms": 20.790099999430822,
+      "wall_ms": 20.81229999748757,
+      "embed_ms": 16.310400002112146,
+      "retrieve_ms": 4.21499999720254,
+      "generate_ms": 0.11049999739043415,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u092a\u0930\u0940\u0915\u094d\u0937\u0923 \u092a\u0930\u093f\u092d\u093e\u0937\u093e",
+      "answered": true,
+      "total_ms": 29.467799999110866,
+      "wall_ms": 29.509200001484714,
+      "embed_ms": 23.85850000064238,
+      "retrieve_ms": 4.698199998529162,
+      "generate_ms": 0.4840000001422595,
+      "refuse_reason": null
+    },
+    {
+      "query": "what causes mouth blisters inside",
+      "answered": true,
+      "total_ms": 34.357500000623986,
+      "wall_ms": 34.39249999792082,
+      "embed_ms": 24.220999999670312,
+      "retrieve_ms": 9.615499999199528,
+      "generate_ms": 0.23099999816622585,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u092e\u0941\u0901\u0939 \u0915\u0947 \u0905\u0902\u0926\u0930 \u092b\u092b\u094b\u0932\u0947 \u0915\u0948\u0938\u0947 \u092c\u0928\u0924\u0947 \u0939\u0948\u0902",
+      "answered": false,
+      "total_ms": 39.89689999798429,
+      "wall_ms": 39.92380000272533,
+      "embed_ms": 19.53260000300361,
+      "retrieve_ms": 20.281699999031844,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "what accounts for different crime rates in different communities",
+      "answered": true,
+      "total_ms": 34.4729999997071,
+      "wall_ms": 34.529500000644475,
+      "embed_ms": 13.4862000013527,
+      "retrieve_ms": 19.657600001664832,
+      "generate_ms": 0.6981000005907845,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0935\u093f\u092d\u093f\u0928\u094d\u0928 \u0938\u092e\u0941\u0926\u093e\u092f\u094b\u0902 \u092e\u0947\u0902 \u0905\u092a\u0930\u093e\u0927 \u0915\u0940 \u0926\u0930 \u0915\u0947 \u0932\u093f\u090f \u0915\u094d\u092f\u093e \u091c\u093f\u092e\u094d\u092e\u0947\u0926\u093e\u0930 \u0939\u0948",
+      "answered": true,
+      "total_ms": 51.47850000139442,
+      "wall_ms": 51.51590000241413,
+      "embed_ms": 27.517999998963205,
+      "retrieve_ms": 23.18329999980051,
+      "generate_ms": 0.31489999673794955,
+      "refuse_reason": null
+    },
+    {
+      "query": "the kansas city star subscription",
+      "answered": true,
+      "total_ms": 25.173099998937687,
+      "wall_ms": 25.195599999278784,
+      "embed_ms": 14.641100002336316,
+      "retrieve_ms": 10.220700001809746,
+      "generate_ms": 0.11350000204402022,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0915\u0928\u094d\u0938\u093e\u0938 \u0938\u093f\u091f\u0940 \u0938\u094d\u091f\u093e\u0930 \u0938\u0926\u0938\u094d\u092f\u0924\u093e",
+      "answered": true,
+      "total_ms": 30.12239999952726,
+      "wall_ms": 30.1729000020714,
+      "embed_ms": 20.496799999818904,
+      "retrieve_ms": 8.81880000088131,
+      "generate_ms": 0.3268000000389293,
+      "refuse_reason": null
+    },
+    {
+      "query": "stripe how many days before payment",
+      "answered": false,
+      "total_ms": 32.228699998086086,
+      "wall_ms": 32.29060000012396,
+      "embed_ms": 18.338800000492483,
+      "retrieve_ms": 13.735700002143858,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "\u092d\u0941\u0917\u0924\u093e\u0928 \u0938\u0947 \u0915\u093f\u0924\u0928\u0947 \u0926\u093f\u0928 \u092a\u0939\u0932\u0947 \u0915\u0940 \u0938\u094d\u091f\u094d\u0930\u093e\u0907\u092a",
+      "answered": true,
+      "total_ms": 39.75210000135121,
+      "wall_ms": 39.79049999907147,
+      "embed_ms": 19.2709000002651,
+      "retrieve_ms": 19.80330000151298,
+      "generate_ms": 0.26699999943957664,
+      "refuse_reason": null
+    },
+    {
+      "query": "how long does it take for weed to get out of your system if you only smoked once",
+      "answered": true,
+      "total_ms": 44.979099999181926,
+      "wall_ms": 45.027899999695364,
+      "embed_ms": 18.167199999879813,
+      "retrieve_ms": 25.79669999977341,
+      "generate_ms": 0.4489999992074445,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0905\u0917\u0930 \u0906\u092a\u0928\u0947 \u0938\u093f\u0930\u094d\u092b \u090f\u0915 \u092c\u093e\u0930 \u0927\u0942\u092e\u094d\u0930\u092a\u093e\u0928 \u0915\u093f\u092f\u093e \u0939\u0948 \u0924\u094b \u0906\u092a\u0915\u0947 \u0938\u093f\u0938\u094d\u091f\u092e \u0938\u0947 \u0916\u0930\u092a\u0924\u0935\u093e\u0930 \u0915\u094b \u092c\u093e\u0939\u0930 \u0928\u093f\u0915\u0932\u0928\u0947 \u092e\u0947\u0902 \u0915\u093f\u0924\u0928\u093e \u0938\u092e\u092f \u0932\u0917\u0947\u0917\u093e\u0964",
+      "answered": true,
+      "total_ms": 45.71840000062366,
+      "wall_ms": 45.74729999876581,
+      "embed_ms": 18.215799998870352,
+      "retrieve_ms": 26.945100002194522,
+      "generate_ms": 0.19360000078449957,
+      "refuse_reason": null
+    },
+    {
+      "query": "number swipe puzzle grid",
+      "answered": true,
+      "total_ms": 28.10249999674852,
+      "wall_ms": 28.15339999870048,
+      "embed_ms": 13.828299997840077,
+      "retrieve_ms": 12.933699999848614,
+      "generate_ms": 0.6474000001617242,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0938\u0902\u0916\u094d\u092f\u093e \u0938\u094d\u0935\u093e\u0907\u092a \u092a\u0939\u0947\u0932\u0940 \u0917\u094d\u0930\u093f\u0921",
+      "answered": true,
+      "total_ms": 38.95439999905648,
+      "wall_ms": 39.01420000329381,
+      "embed_ms": 23.907999999210006,
+      "retrieve_ms": 13.541399999667192,
+      "generate_ms": 0.5648000005749054,
+      "refuse_reason": null
+    },
+    {
+      "query": "are foreign exchange students allowed to play sports",
+      "answered": true,
+      "total_ms": 36.60719999970752,
+      "wall_ms": 36.6360000007262,
+      "embed_ms": 21.778500002255896,
+      "retrieve_ms": 14.426300000195624,
+      "generate_ms": 0.11140000060549937,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0935\u093f\u0926\u0947\u0936\u0940 \u0935\u093f\u0928\u093f\u092e\u092f \u091b\u093e\u0924\u094d\u0930\u094b\u0902 \u0915\u094b \u0916\u0947\u0932 \u0916\u0947\u0932\u0928\u0947 \u0915\u0940 \u0905\u0928\u0941\u092e\u0924\u093f \u0939\u0948",
+      "answered": false,
+      "total_ms": 35.22690000318107,
+      "wall_ms": 35.250900000391994,
+      "embed_ms": 18.42469999974128,
+      "retrieve_ms": 16.73539999683271,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "how much does it cost to enter a bodybuilding competition",
+      "answered": true,
+      "total_ms": 38.70440000173403,
+      "wall_ms": 38.732100001652725,
+      "embed_ms": 21.183299999393057,
+      "retrieve_ms": 16.89489999989746,
+      "generate_ms": 0.287499999103602,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u092c\u0949\u0921\u0940\u092c\u093f\u0932\u094d\u0921\u093f\u0902\u0917 \u092a\u094d\u0930\u0924\u093f\u092f\u094b\u0917\u093f\u0924\u093e \u092e\u0947\u0902 \u092a\u094d\u0930\u0935\u0947\u0936 \u0915\u0930\u0928\u0947 \u0915\u0940 \u0915\u093f\u0924\u0928\u0940 \u0932\u093e\u0917\u0924 \u0906\u0924\u0940 \u0939\u0948",
+      "answered": true,
+      "total_ms": 32.12290000010398,
+      "wall_ms": 32.15170000112266,
+      "embed_ms": 12.936499999341322,
+      "retrieve_ms": 18.715999998676125,
+      "generate_ms": 0.1843999998527579,
+      "refuse_reason": null
+    },
+    {
+      "query": "what is ecg for?",
+      "answered": true,
+      "total_ms": 26.49100000053295,
+      "wall_ms": 26.529299997491762,
+      "embed_ms": 15.690899999754038,
+      "retrieve_ms": 10.131199996976648,
+      "generate_ms": 0.3465999980107881,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0915\u094d\u092f\u093e \u0908.\u0938\u0940.\u091c\u0940. \u0939\u0948?",
+      "answered": false,
+      "total_ms": 26.69610000157263,
+      "wall_ms": 26.751000001240755,
+      "embed_ms": 20.375500000227476,
+      "retrieve_ms": 6.211500000063097,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "what is an embolism of the aorta",
+      "answered": true,
+      "total_ms": 42.75979999874835,
+      "wall_ms": 42.80990000188467,
+      "embed_ms": 21.955200001684716,
+      "retrieve_ms": 19.962099999247584,
+      "generate_ms": 0.3676999986055307,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u092e\u0939\u093e\u0927\u092e\u0928\u0940 \u0915\u093e \u0905\u0928\u094d\u0924\u0903\u0936\u0932\u094d\u092f\u0924\u093e \u0915\u094d\u092f\u093e \u0939\u0948",
+      "answered": true,
+      "total_ms": 39.276400002563605,
+      "wall_ms": 39.32229999918491,
+      "embed_ms": 24.109400001179893,
+      "retrieve_ms": 14.42989999850397,
+      "generate_ms": 0.2902999985963106,
+      "refuse_reason": null
+    },
+    {
+      "query": "how to rebuild a 1800 goldwing brake caliper",
+      "answered": true,
+      "total_ms": 47.565800003212644,
+      "wall_ms": 47.60650000025635,
+      "embed_ms": 24.50410000164993,
+      "retrieve_ms": 22.572000001673587,
+      "generate_ms": 0.18420000196783803,
+      "refuse_reason": null
+    },
+    {
+      "query": "1800 \u0917\u094b\u0932\u094d\u0921\u0935\u093f\u0902\u0917 \u092c\u094d\u0930\u0947\u0915 \u0915\u0948\u0932\u093e\u0907\u092a\u0930 \u0915\u094b \u092a\u0941\u0928\u0930\u094d\u0928\u093f\u0930\u094d\u092e\u093e\u0923 \u0915\u0948\u0938\u0947 \u0915\u0930\u0947\u0902",
+      "answered": true,
+      "total_ms": 37.76339999967604,
+      "wall_ms": 37.80209999968065,
+      "embed_ms": 18.982699999469332,
+      "retrieve_ms": 18.27370000319206,
+      "generate_ms": 0.2426999999443069,
+      "refuse_reason": null
+    },
+    {
+      "query": "u of a elementary education transfer requirements",
+      "answered": true,
+      "total_ms": 36.956299998564646,
+      "wall_ms": 36.99580000102287,
+      "embed_ms": 20.69640000263462,
+      "retrieve_ms": 15.754600000946084,
+      "generate_ms": 0.2120000026479829,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u092a\u094d\u0930\u093e\u0925\u092e\u093f\u0915 \u0936\u093f\u0915\u094d\u0937\u093e \u0938\u094d\u0925\u093e\u0928\u093e\u0902\u0924\u0930\u0923 \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e\u0913\u0902 \u0915\u0947 \u0932\u093f\u090f",
+      "answered": false,
+      "total_ms": 32.81300000162446,
+      "wall_ms": 32.84020000137389,
+      "embed_ms": 19.414899998082547,
+      "retrieve_ms": 13.306299999385374,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "what causes muscle low stamina",
+      "answered": true,
+      "total_ms": 29.05539999846951,
+      "wall_ms": 29.0939000005892,
+      "embed_ms": 17.59220000167261,
+      "retrieve_ms": 10.822799999004928,
+      "generate_ms": 0.29119999817339703,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u092e\u093e\u0902\u0938\u092a\u0947\u0936\u093f\u092f\u094b\u0902 \u092e\u0947\u0902 \u0915\u092e \u0938\u0939\u0928\u0936\u0915\u094d\u0924\u093f \u0915\u093e \u0915\u093e\u0930\u0923 \u0915\u094d\u092f\u093e \u0939\u0948",
+      "answered": true,
+      "total_ms": 35.45170000143116,
+      "wall_ms": 35.49340000245138,
+      "embed_ms": 18.81390000198735,
+      "retrieve_ms": 15.971799999533687,
+      "generate_ms": 0.2893999990192242,
+      "refuse_reason": null
+    },
+    {
+      "query": "juneteenth holiday",
+      "answered": true,
+      "total_ms": 25.654400000348687,
+      "wall_ms": 25.68070000052103,
+      "embed_ms": 20.840900000621332,
+      "retrieve_ms": 4.511300001468044,
+      "generate_ms": 0.1081000009435229,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u092c\u0940\u0938\u0935\u0940\u0902 \u091b\u0941\u091f\u094d\u091f\u0940",
+      "answered": false,
+      "total_ms": 29.10129999872879,
+      "wall_ms": 29.133400003047427,
+      "embed_ms": 23.419400000420865,
+      "retrieve_ms": 5.608799998299219,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "lymphoma start symptoms",
+      "answered": true,
+      "total_ms": 23.593000001710607,
+      "wall_ms": 23.654000000533415,
+      "embed_ms": 13.11839999834774,
+      "retrieve_ms": 9.595399998943321,
+      "generate_ms": 0.3941999966627918,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0932\u0938\u0940\u0915\u093e\u092c\u0941\u0930\u094d\u0926\u0940 \u0915\u0947 \u092a\u094d\u0930\u093e\u0930\u0902\u092d\u093f\u0915 \u0932\u0915\u094d\u0937\u0923",
+      "answered": true,
+      "total_ms": 25.11900000172318,
+      "wall_ms": 25.14619999783463,
+      "embed_ms": 18.114200000127312,
+      "retrieve_ms": 6.551599999511382,
+      "generate_ms": 0.16370000230381265,
+      "refuse_reason": null
+    },
+    {
+      "query": "types of benign brain tumors",
+      "answered": true,
+      "total_ms": 22.83280000119703,
+      "wall_ms": 22.858699998323573,
+      "embed_ms": 14.51949999682256,
+      "retrieve_ms": 7.962700001371559,
+      "generate_ms": 0.15440000061062165,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u092e\u0938\u094d\u0924\u093f\u0937\u094d\u0915 \u0915\u0947 \u0905\u0930\u094d\u092c\u0941\u0926 \u0915\u0947 \u092a\u094d\u0930\u0915\u093e\u0930",
+      "answered": true,
+      "total_ms": 40.885500002332265,
+      "wall_ms": 40.92149999996764,
+      "embed_ms": 25.67780000026687,
+      "retrieve_ms": 14.65969999844674,
+      "generate_ms": 0.2406999992672354,
+      "refuse_reason": null
+    },
+    {
+      "query": "what does civil liberties protect",
+      "answered": true,
+      "total_ms": 35.1955000005546,
+      "wall_ms": 35.240099998191,
+      "embed_ms": 20.152600001893006,
+      "retrieve_ms": 14.390699998330092,
+      "generate_ms": 0.298400002066046,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0928\u093e\u0917\u0930\u093f\u0915 \u0938\u094d\u0935\u0924\u0902\u0924\u094d\u0930\u0924\u093e\u090f\u0901 \u0915\u094d\u092f\u093e \u0938\u0902\u0930\u0915\u094d\u0937\u093f\u0924 \u0915\u0930\u0924\u0940 \u0939\u0948\u0902",
+      "answered": true,
+      "total_ms": 36.617600002500694,
+      "wall_ms": 36.66709999743034,
+      "embed_ms": 21.295200000167824,
+      "retrieve_ms": 14.686700000311248,
+      "generate_ms": 0.2755999994406011,
+      "refuse_reason": null
+    },
+    {
+      "query": "what is claret called in australia",
+      "answered": true,
+      "total_ms": 34.7899000007601,
+      "wall_ms": 34.83070000220323,
+      "embed_ms": 21.172199998545693,
+      "retrieve_ms": 12.873299998318544,
+      "generate_ms": 0.36720000207424164,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0911\u0938\u094d\u091f\u094d\u0930\u0947\u0932\u093f\u092f\u093e \u092e\u0947\u0902 \u0915\u094d\u0932\u0948\u0930\u0947\u091f \u0915\u094b \u0915\u094d\u092f\u093e \u0915\u0939\u093e \u091c\u093e\u0924\u093e \u0939\u0948",
+      "answered": false,
+      "total_ms": 32.35739999945508,
+      "wall_ms": 32.383599998865975,
+      "embed_ms": 18.921400002000155,
+      "retrieve_ms": 13.321200000063982,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "labor cost to install tile shower",
+      "answered": true,
+      "total_ms": 26.229299997794442,
+      "wall_ms": 26.252600000589155,
+      "embed_ms": 18.216899999970337,
+      "retrieve_ms": 7.625200003531063,
+      "generate_ms": 0.15729999722680077,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u091f\u093e\u0907\u0932 \u0936\u093e\u0935\u0930 \u0938\u094d\u0925\u093e\u092a\u093f\u0924 \u0915\u0930\u0928\u0947 \u0915\u0940 \u0932\u093e\u0917\u0924",
+      "answered": true,
+      "total_ms": 28.514999998151325,
+      "wall_ms": 28.541299998323666,
+      "embed_ms": 18.650300000444986,
+      "retrieve_ms": 9.430000001884764,
+      "generate_ms": 0.20330000188550912,
+      "refuse_reason": null
+    },
+    {
+      "query": "what is a disease that affects the legs",
+      "answered": false,
+      "total_ms": 22.511999999551335,
+      "wall_ms": 22.541300000739284,
+      "embed_ms": 12.810799998987932,
+      "retrieve_ms": 9.613600002921885,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "\u0915\u094c\u0928 \u0938\u0940 \u092c\u0940\u092e\u093e\u0930\u0940 \u0939\u0948 \u091c\u094b \u092a\u0948\u0930\u094b\u0902 \u0915\u094b \u092a\u094d\u0930\u092d\u093e\u0935\u093f\u0924 \u0915\u0930\u0924\u0940 \u0939\u0948",
+      "answered": false,
+      "total_ms": 33.087300002080156,
+      "wall_ms": 33.118999999715015,
+      "embed_ms": 14.356200001202524,
+      "retrieve_ms": 18.641299997398164,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "define: false clause",
+      "answered": true,
+      "total_ms": 22.58809999693767,
+      "wall_ms": 22.61279999947874,
+      "embed_ms": 17.034600001352374,
+      "retrieve_ms": 5.168600000615697,
+      "generate_ms": 0.16710000272723846,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u092a\u0930\u093f\u092d\u093e\u0937\u093e: \u0905\u0938\u0924\u094d\u092f \u0916\u0902\u0921",
+      "answered": false,
+      "total_ms": 20.42980000260286,
+      "wall_ms": 20.455599998967955,
+      "embed_ms": 15.19180000104825,
+      "retrieve_ms": 5.148000000190223,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "language code for mandarin chinese",
+      "answered": true,
+      "total_ms": 32.34280000106082,
+      "wall_ms": 32.38419999979669,
+      "embed_ms": 17.305100001976825,
+      "retrieve_ms": 14.425900000787806,
+      "generate_ms": 0.2742000033322256,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u092e\u0902\u0926\u093e\u0930\u093f\u0928 \u091a\u0940\u0928\u0940 \u0915\u0947 \u0932\u093f\u090f \u092d\u093e\u0937\u093e \u0915\u094b\u0921",
+      "answered": false,
+      "total_ms": 27.74670000144397,
+      "wall_ms": 27.769500000431435,
+      "embed_ms": 17.026900000928435,
+      "retrieve_ms": 10.618100001011044,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "is it legal for my landlord to enter my apartment without my permission",
+      "answered": true,
+      "total_ms": 49.380699998437194,
+      "wall_ms": 49.40540000097826,
+      "embed_ms": 16.874900000402704,
+      "retrieve_ms": 31.74090000175056,
+      "generate_ms": 0.5094000007375143,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0915\u094d\u092f\u093e \u092e\u0947\u0930\u0947 \u092e\u0915\u093e\u0928 \u092e\u093e\u0932\u093f\u0915 \u0915\u0947 \u0932\u093f\u090f \u092e\u0947\u0930\u0940 \u0905\u0928\u0941\u092e\u0924\u093f \u0915\u0947 \u092c\u093f\u0928\u093e \u092e\u0947\u0930\u0947 \u0905\u092a\u093e\u0930\u094d\u091f\u092e\u0947\u0902\u091f \u092e\u0947\u0902 \u0918\u0941\u0938 \u091c\u093e\u0928\u093e \u0915\u093e\u0928\u0942\u0928\u0940 \u0939\u0948?",
+      "answered": true,
+      "total_ms": 55.2735000019311,
+      "wall_ms": 55.310499999905005,
+      "embed_ms": 23.52439999958733,
+      "retrieve_ms": 31.203300000925083,
+      "generate_ms": 0.24900000062189065,
+      "refuse_reason": null
+    },
+    {
+      "query": "what causes nail biting picking?",
+      "answered": true,
+      "total_ms": 22.407599997677607,
+      "wall_ms": 22.43309999903431,
+      "embed_ms": 14.56789999792818,
+      "retrieve_ms": 7.3561000026529655,
+      "generate_ms": 0.22360000002663583,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0928\u093e\u0916\u0942\u0928 \u0915\u093e\u091f\u0928\u0947 \u0915\u0947 \u0915\u093e\u0930\u0923 \u0915\u094d\u092f\u093e \u0939\u094b\u0924\u093e \u0939\u0948?",
+      "answered": true,
+      "total_ms": 29.70110000023851,
+      "wall_ms": 29.741300000750925,
+      "embed_ms": 13.20299999861163,
+      "retrieve_ms": 15.679199997975957,
+      "generate_ms": 0.42920000123558566,
+      "refuse_reason": null
+    },
+    {
+      "query": "discoloration of skin causes",
+      "answered": true,
+      "total_ms": 36.13439999753609,
+      "wall_ms": 36.18990000177291,
+      "embed_ms": 22.04610000262619,
+      "retrieve_ms": 12.965500001882901,
+      "generate_ms": 0.5136999971000478,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0924\u094d\u0935\u091a\u093e \u0915\u093e \u0930\u0902\u0917 \u092c\u093f\u0917\u0921\u093c\u0928\u0947 \u0915\u093e \u0915\u093e\u0930\u0923 \u0939\u0948",
+      "answered": true,
+      "total_ms": 40.38829999990412,
+      "wall_ms": 40.43889999957173,
+      "embed_ms": 23.04349999758415,
+      "retrieve_ms": 16.416700000263518,
+      "generate_ms": 0.3302000004623551,
+      "refuse_reason": null
+    },
+    {
+      "query": "what else causes swelling other than lymphedema",
+      "answered": true,
+      "total_ms": 38.85760000048322,
+      "wall_ms": 38.93469999820809,
+      "embed_ms": 15.86690000112867,
+      "retrieve_ms": 21.71250000174041,
+      "generate_ms": 0.639899997622706,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0932\u093f\u092e\u094d\u092b\u0947\u0921\u0947\u092e\u093e \u0915\u0947 \u0905\u0932\u093e\u0935\u093e \u0914\u0930 \u0915\u094d\u092f\u093e \u0915\u093e\u0930\u0923 \u0939\u0948 \u0938\u0942\u091c\u0928",
+      "answered": true,
+      "total_ms": 39.73290000067209,
+      "wall_ms": 39.77129999839235,
+      "embed_ms": 22.376199998689117,
+      "retrieve_ms": 16.599400001723552,
+      "generate_ms": 0.3398000008019153,
+      "refuse_reason": null
+    },
+    {
+      "query": "slavery history definition",
+      "answered": true,
+      "total_ms": 25.381900002685143,
+      "wall_ms": 25.40910000243457,
+      "embed_ms": 19.679099998029415,
+      "retrieve_ms": 5.347199999960139,
+      "generate_ms": 0.14770000052521937,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0926\u093e\u0938\u0924\u093e \u0915\u0947 \u0907\u0924\u093f\u0939\u093e\u0938 \u0915\u0940 \u092a\u0930\u093f\u092d\u093e\u0937\u093e",
+      "answered": true,
+      "total_ms": 28.4600999984832,
+      "wall_ms": 28.497800001787255,
+      "embed_ms": 17.141399999673013,
+      "retrieve_ms": 10.775000002468005,
+      "generate_ms": 0.21660000129486434,
+      "refuse_reason": null
+    },
+    {
+      "query": "weight watchers ground turkey chili",
+      "answered": true,
+      "total_ms": 27.230199997575255,
+      "wall_ms": 27.271399998426205,
+      "embed_ms": 14.570499999535969,
+      "retrieve_ms": 12.279500002478017,
+      "generate_ms": 0.13310000213095918,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0935\u091c\u0928 \u0926\u0947\u0916\u0928\u0947 \u0935\u093e\u0932\u0947 \u0932\u094b\u0917 \u091f\u0930\u094d\u0915\u0940 \u0915\u0940 \u091a\u093f\u0932\u0940 \u0915\u094b \u092a\u0940\u091f\u0924\u0947 \u0939\u0948\u0902",
+      "answered": true,
+      "total_ms": 40.854199996829266,
+      "wall_ms": 40.89210000165622,
+      "embed_ms": 17.627799999900162,
+      "retrieve_ms": 22.850900000776164,
+      "generate_ms": 0.13219999891589396,
+      "refuse_reason": null
+    },
+    {
+      "query": "what are the highest mountains called",
+      "answered": true,
+      "total_ms": 32.25139999995008,
+      "wall_ms": 32.3032999986026,
+      "embed_ms": 18.84330000029877,
+      "retrieve_ms": 12.766299998475006,
+      "generate_ms": 0.3350000006321352,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0915\u094c\u0928 \u0938\u0947 \u0938\u092c\u0938\u0947 \u090a\u0901\u091a\u0947 \u092a\u0939\u093e\u0921\u093c \u0939\u0948\u0902 \u091c\u093f\u0928\u094d\u0939\u0947\u0902",
+      "answered": true,
+      "total_ms": 32.75339999891003,
+      "wall_ms": 32.780400000774534,
+      "embed_ms": 20.854599999438506,
+      "retrieve_ms": 11.537900001712842,
+      "generate_ms": 0.14039999950909987,
+      "refuse_reason": null
+    },
+    {
+      "query": "triceps press how much weight",
+      "answered": true,
+      "total_ms": 30.47590000278433,
+      "wall_ms": 30.53859999999986,
+      "embed_ms": 12.839899998652982,
+      "retrieve_ms": 16.572099997574696,
+      "generate_ms": 0.4756999987876043,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0915\u093f\u0924\u0928\u093e \u0935\u091c\u0928 \u0924\u094d\u0930\u093f\u0915\u094b\u0923\u0940\u092f \u0926\u092c\u093e\u0935 \u0926\u094d\u0935\u093e\u0930\u093e \u0926\u092c\u093e\u092f\u093e \u091c\u093e\u0924\u093e \u0939\u0948",
+      "answered": true,
+      "total_ms": 34.98749999926076,
+      "wall_ms": 35.03209999689716,
+      "embed_ms": 22.40920000258484,
+      "retrieve_ms": 11.905499999556923,
+      "generate_ms": 0.2223999981652014,
+      "refuse_reason": null
+    },
+    {
+      "query": "what is a jaguars predator",
+      "answered": true,
+      "total_ms": 35.001399999600835,
+      "wall_ms": 35.059400001046015,
+      "embed_ms": 19.461899999441812,
+      "retrieve_ms": 14.469100002315827,
+      "generate_ms": 0.4817000008188188,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u091c\u0948\u0917\u0941\u0906\u0930 \u0936\u093f\u0915\u093e\u0930\u0940 \u0915\u094d\u092f\u093e \u0939\u0948",
+      "answered": true,
+      "total_ms": 40.512999999918975,
+      "wall_ms": 40.55719999814755,
+      "embed_ms": 27.36410000215983,
+      "retrieve_ms": 12.498200001573423,
+      "generate_ms": 0.26449999859323725,
+      "refuse_reason": null
+    },
+    {
+      "query": "top carbohydrates for athletes",
+      "answered": true,
+      "total_ms": 30.11329999935697,
+      "wall_ms": 30.137600002490217,
+      "embed_ms": 22.2544000025664,
+      "retrieve_ms": 7.4487999991106335,
+      "generate_ms": 0.1823999991756864,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0916\u093f\u0932\u093e\u0921\u093c\u093f\u092f\u094b\u0902 \u0915\u0947 \u0932\u093f\u090f \u0936\u0940\u0930\u094d\u0937 \u0915\u093e\u0930\u094d\u092c\u094b\u0939\u093e\u0907\u0921\u094d\u0930\u0947\u091f",
+      "answered": true,
+      "total_ms": 25.166999999783002,
+      "wall_ms": 25.201799999194918,
+      "embed_ms": 14.960200001951307,
+      "retrieve_ms": 9.61960000131512,
+      "generate_ms": 0.25159999859170057,
+      "refuse_reason": null
+    },
+    {
+      "query": "how to eliminate ankle swelling",
+      "answered": true,
+      "total_ms": 32.269999999698484,
+      "wall_ms": 32.311200000549434,
+      "embed_ms": 19.936000000598142,
+      "retrieve_ms": 11.61850000062259,
+      "generate_ms": 0.36529999852064066,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u091f\u0916\u0928\u0947 \u0915\u0940 \u0938\u0942\u091c\u0928 \u0915\u094b \u0915\u0948\u0938\u0947 \u0926\u0942\u0930 \u0915\u0930\u0947\u0902",
+      "answered": true,
+      "total_ms": 38.61450000113109,
+      "wall_ms": 38.65820000282838,
+      "embed_ms": 19.513799998094328,
+      "retrieve_ms": 18.22829999946407,
+      "generate_ms": 0.4608000017469749,
+      "refuse_reason": null
+    },
+    {
+      "query": "how long does diver certification last",
+      "answered": true,
+      "total_ms": 32.75569999823347,
+      "wall_ms": 32.78830000272137,
+      "embed_ms": 19.638499998109182,
+      "retrieve_ms": 12.483000002248446,
+      "generate_ms": 0.31710000257589854,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0917\u094b\u0924\u093e\u0916\u094b\u0930 \u092a\u094d\u0930\u092e\u093e\u0923\u0940\u0915\u0930\u0923 \u0915\u093f\u0924\u0928\u0947 \u0938\u092e\u092f \u0924\u0915 \u091a\u0932\u0924\u093e \u0939\u0948",
+      "answered": true,
+      "total_ms": 26.057299997773953,
+      "wall_ms": 26.081200001499383,
+      "embed_ms": 14.988800001447089,
+      "retrieve_ms": 9.976100001949817,
+      "generate_ms": 0.5832999995618593,
+      "refuse_reason": null
+    },
+    {
+      "query": "what curry is hot",
+      "answered": true,
+      "total_ms": 32.083300000522286,
+      "wall_ms": 32.12279999934253,
+      "embed_ms": 20.034500001202105,
+      "retrieve_ms": 11.442799997894326,
+      "generate_ms": 0.25210000239894725,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0915\u094c\u0928 \u0938\u0940 \u0938\u092c\u094d\u091c\u093c\u0940 \u0917\u0930\u094d\u092e \u0939\u0948",
+      "answered": false,
+      "total_ms": 31.88179999779095,
+      "wall_ms": 31.907500000670552,
+      "embed_ms": 22.73540000169305,
+      "retrieve_ms": 9.058700001332909,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "what causes nausea and hot flashes",
+      "answered": true,
+      "total_ms": 35.21729999920353,
+      "wall_ms": 35.24480000123731,
+      "embed_ms": 21.643400003085844,
+      "retrieve_ms": 13.071299999865005,
+      "generate_ms": 0.2392999995208811,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u092e\u0924\u0932\u0940 \u0914\u0930 \u0917\u0930\u094d\u092e\u0940 \u0915\u0940 \u091d\u091f\u0915\u0947 \u0915\u093e \u0915\u093e\u0930\u0923 \u0915\u094d\u092f\u093e \u0939\u0948",
+      "answered": true,
+      "total_ms": 36.031899999215966,
+      "wall_ms": 36.06790000048932,
+      "embed_ms": 15.146599998843158,
+      "retrieve_ms": 20.135300001129508,
+      "generate_ms": 0.3644999997050036,
+      "refuse_reason": null
+    },
+    {
+      "query": "http definition computer",
+      "answered": false,
+      "total_ms": 25.28130000064266,
+      "wall_ms": 25.321299999632174,
+      "embed_ms": 18.156300000555348,
+      "retrieve_ms": 7.0250999997369945,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "\u0915\u0902\u092a\u094d\u092f\u0942\u091f\u0930 \u0915\u0940 \u092a\u0930\u093f\u092d\u093e\u0937\u093e \u0939\u0948",
+      "answered": false,
+      "total_ms": 27.170199999090983,
+      "wall_ms": 27.208899999095593,
+      "embed_ms": 19.483500000205822,
+      "retrieve_ms": 7.548199999291683,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "chemical reactions that only occur if there is an input of energy are referred to as",
+      "answered": true,
+      "total_ms": 43.87400000268826,
+      "wall_ms": 43.90419999981532,
+      "embed_ms": 18.565400001534726,
+      "retrieve_ms": 24.868900000001304,
+      "generate_ms": 0.1641000017116312,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0930\u093e\u0938\u093e\u092f\u0928\u093f\u0915 \u092a\u094d\u0930\u0924\u093f\u0915\u094d\u0930\u093f\u092f\u093e\u090f\u0901 \u091c\u094b \u0915\u0947\u0935\u0932 \u0924\u092d\u0940 \u0939\u094b\u0924\u0940 \u0939\u0948\u0902 \u091c\u092c \u090a\u0930\u094d\u091c\u093e \u0915\u093e \u0907\u0928\u092a\u0941\u091f \u0939\u094b\u0924\u093e \u0939\u0948, \u0909\u0928\u094d\u0939\u0947\u0902",
+      "answered": true,
+      "total_ms": 48.14439999972819,
+      "wall_ms": 48.18619999787188,
+      "embed_ms": 13.100000000122236,
+      "retrieve_ms": 34.401000000798376,
+      "generate_ms": 0.2701999983401038,
+      "refuse_reason": null
+    },
+    {
+      "query": "nuedexta withdrawal symptoms",
+      "answered": true,
+      "total_ms": 28.815300000132993,
+      "wall_ms": 28.872200000478188,
+      "embed_ms": 17.404300000634976,
+      "retrieve_ms": 10.496200000488898,
+      "generate_ms": 0.42689999827416614,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0928\u094d\u092f\u0942\u0921\u0947\u0915\u094d\u0938\u091f\u093e \u0935\u093e\u092a\u0938\u0940 \u0915\u0947 \u0932\u0915\u094d\u0937\u0923",
+      "answered": true,
+      "total_ms": 26.11330000218004,
+      "wall_ms": 26.16889999990235,
+      "embed_ms": 15.652300000510877,
+      "retrieve_ms": 9.800899999390822,
+      "generate_ms": 0.2571000004536472,
+      "refuse_reason": null
+    },
+    {
+      "query": "in what decade did the decline of farm products begin",
+      "answered": true,
+      "total_ms": 26.969099999405444,
+      "wall_ms": 27.000500002031913,
+      "embed_ms": 15.050800000608433,
+      "retrieve_ms": 11.353800000506453,
+      "generate_ms": 0.25690000256872736,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0915\u093f\u0938 \u0926\u0936\u0915 \u092e\u0947\u0902 \u0915\u0943\u0937\u093f \u0909\u0924\u094d\u092a\u093e\u0926\u094b\u0902 \u0915\u093e \u092a\u0924\u0928 \u0936\u0941\u0930\u0942 \u0939\u0941\u0906",
+      "answered": false,
+      "total_ms": 38.03849999894737,
+      "wall_ms": 38.09929999988526,
+      "embed_ms": 13.89759999801754,
+      "retrieve_ms": 24.030600001424318,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "cost of trugreen lawn service",
+      "answered": true,
+      "total_ms": 31.09499999845866,
+      "wall_ms": 31.14149999964866,
+      "embed_ms": 20.95079999708105,
+      "retrieve_ms": 9.632100001908839,
+      "generate_ms": 0.1993000005313661,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u091f\u094d\u0930\u0942\u0917\u094d\u0930\u0940\u0928 \u0932\u0949\u0928 \u0938\u0947\u0935\u093e \u0915\u0940 \u0932\u093e\u0917\u0924",
+      "answered": false,
+      "total_ms": 33.15909999946598,
+      "wall_ms": 33.23819999786792,
+      "embed_ms": 22.950599999603583,
+      "retrieve_ms": 10.11830000061309,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "is there any investment that has a negative beta?",
+      "answered": true,
+      "total_ms": 42.127000000618864,
+      "wall_ms": 42.16150000138441,
+      "embed_ms": 19.77880000049481,
+      "retrieve_ms": 21.72430000064196,
+      "generate_ms": 0.2578000021458138,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0915\u094d\u092f\u093e \u0915\u094b\u0908 \u0910\u0938\u093e \u0928\u093f\u0935\u0947\u0936 \u0939\u0948 \u091c\u093f\u0938\u0915\u093e \u092c\u0940\u091f\u093e \u0928\u0915\u093e\u0930\u093e\u0924\u094d\u092e\u0915 \u0939\u0948?",
+      "answered": true,
+      "total_ms": 38.85509999963688,
+      "wall_ms": 38.87849999955506,
+      "embed_ms": 13.51029999932507,
+      "retrieve_ms": 24.98130000094534,
+      "generate_ms": 0.16350000078091398,
+      "refuse_reason": null
+    },
+    {
+      "query": "what is dmdd",
+      "answered": false,
+      "total_ms": 23.286899999220623,
+      "wall_ms": 23.346599999058526,
+      "embed_ms": 12.435299999197014,
+      "retrieve_ms": 10.750000001280569,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "\u0915\u094d\u092f\u093e \u0906\u092a \u0921\u0940.\u090f\u092e.\u0921\u0940.\u0921\u0940. \u0939\u0948\u0902?",
+      "answered": false,
+      "total_ms": 30.353100002685096,
+      "wall_ms": 30.40349999719183,
+      "embed_ms": 20.837299998675007,
+      "retrieve_ms": 9.328000000095926,
+      "generate_ms": 0.0,
+      "refuse_reason": "Low retrieval confidence (0.000 < 0.18)."
+    },
+    {
+      "query": "most products are in decline stage of product lifestyle",
+      "answered": true,
+      "total_ms": 33.47330000178772,
+      "wall_ms": 33.50339999815333,
+      "embed_ms": 19.011299998965114,
+      "retrieve_ms": 13.953400000900729,
+      "generate_ms": 0.2271999983349815,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0905\u0927\u093f\u0915\u093e\u0902\u0936 \u0909\u0924\u094d\u092a\u093e\u0926 \u0909\u0924\u094d\u092a\u093e\u0926 \u091c\u0940\u0935\u0928 \u0936\u0948\u0932\u0940 \u0915\u0947 \u0905\u0935\u0928\u0924\u093f \u091a\u0930\u0923 \u092e\u0947\u0902 \u0939\u0948\u0902\u0964",
+      "answered": true,
+      "total_ms": 37.15809999994235,
+      "wall_ms": 37.18710000248393,
+      "embed_ms": 14.740300000994466,
+      "retrieve_ms": 21.999399999913294,
+      "generate_ms": 0.18110000019078143,
+      "refuse_reason": null
+    },
+    {
+      "query": "london time india time",
+      "answered": true,
+      "total_ms": 35.57149999687681,
+      "wall_ms": 35.63109999959124,
+      "embed_ms": 21.71529999759514,
+      "retrieve_ms": 12.98540000061621,
+      "generate_ms": 0.3752000011445489,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0932\u0902\u0926\u0928 \u0915\u093e \u0938\u092e\u092f \u092d\u093e\u0930\u0924\u0940\u092f \u0938\u092e\u092f",
+      "answered": true,
+      "total_ms": 32.993200002238154,
+      "wall_ms": 33.036799999536015,
+      "embed_ms": 20.932600000378443,
+      "retrieve_ms": 11.26730000032694,
+      "generate_ms": 0.37150000207475387,
+      "refuse_reason": null
+    },
+    {
+      "query": "temperature in san francisco in january",
+      "answered": true,
+      "total_ms": 40.393900002527516,
+      "wall_ms": 40.57939999984228,
+      "embed_ms": 21.077299999888055,
+      "retrieve_ms": 18.37320000049658,
+      "generate_ms": 0.4679000012401957,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u091c\u0928\u0935\u0930\u0940 \u092e\u0947\u0902 \u0938\u0948\u0928 \u092b\u094d\u0930\u093e\u0902\u0938\u093f\u0938\u094d\u0915\u094b \u092e\u0947\u0902 \u0924\u093e\u092a\u092e\u093e\u0928",
+      "answered": true,
+      "total_ms": 39.87259999848902,
+      "wall_ms": 39.91880000103265,
+      "embed_ms": 23.511499999585794,
+      "retrieve_ms": 15.507600001001265,
+      "generate_ms": 0.3943999981856905,
+      "refuse_reason": null
+    },
+    {
+      "query": "definition of resource management",
+      "answered": true,
+      "total_ms": 26.393100000859704,
+      "wall_ms": 26.45420000044396,
+      "embed_ms": 16.158300000824966,
+      "retrieve_ms": 9.436300002562348,
+      "generate_ms": 0.3256999989389442,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0938\u0902\u0938\u093e\u0927\u0928 \u092a\u094d\u0930\u092c\u0902\u0927\u0928 \u0915\u0940 \u092a\u0930\u093f\u092d\u093e\u0937\u093e",
+      "answered": true,
+      "total_ms": 31.76499999972293,
+      "wall_ms": 31.815199999982724,
+      "embed_ms": 18.76279999851249,
+      "retrieve_ms": 11.917799998627743,
+      "generate_ms": 0.6448999993153848,
+      "refuse_reason": null
+    },
+    {
+      "query": "what causes nausea while eating",
+      "answered": true,
+      "total_ms": 35.97000000081607,
+      "wall_ms": 36.02060000048368,
+      "embed_ms": 21.788000001834007,
+      "retrieve_ms": 13.23209999827668,
+      "generate_ms": 0.48289999904227443,
+      "refuse_reason": null
+    },
+    {
+      "query": "\u0916\u093e\u0924\u0947 \u0938\u092e\u092f \u092e\u0924\u0932\u0940 \u0915\u093e \u0915\u093e\u0930\u0923 \u0915\u094d\u092f\u093e \u0939\u094b\u0924\u093e \u0939\u0948\u0964",
+      "answered": true,
+      "total_ms": 44.24560000188649,
+      "wall_ms": 44.29499999969266,
+      "embed_ms": 25.14579999842681,
+      "retrieve_ms": 18.098100001225248,
+      "generate_ms": 0.4613999990397133,
+      "refuse_reason": null
+    },
+    {
+      "query": "what is celluclay",
+      "answered": true,
+      "total_ms": 30.353399997693487,
+      "wall_ms": 30.387800001335563,
+      "embed_ms": 22.833700000774115,
+      "retrieve_ms": 6.690300000627758,
+      "generate_ms": 0.35539999953471124,
+      "refuse_reason": null
+    }
+  ],
+  "notes": {
+    "definition": "Online latency = embed + retrieve + generate + guards (chunking/indexing is offline). STT measured separately.",
+    "target": "total_ms P50/P70 under 200ms"
+  }
+}
