@@ -1,0 +1,3 @@
+# Optional stronger multilingual embeddings (larger download)
+sentence-transformers>=3.1.0
+torch>=2.2.0

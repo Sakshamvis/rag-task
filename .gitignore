@@ -1,0 +1,20 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+node_modules/
+frontend/dist/
+frontend/node_modules/
+data/raw/
+# Track built index + metrics so judges can run without re-downloading HF
+artifacts/*
+!artifacts/.gitkeep
+!artifacts/latency_metrics.json
+*.faiss
+.DS_Store
+.wrangler/
+.output/
